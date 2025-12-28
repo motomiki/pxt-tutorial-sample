@@ -4,7 +4,7 @@
 
 Create enemies and spawn them at random locations!
 
-## Step One
+## Step 1
 
 Add an ``||game:on game update every||`` block to the workspace.
 
@@ -13,7 +13,7 @@ game.onUpdateInterval(500, function () {
 })
 ```
 
-## Step Two
+## Step 2
 
 Use a ``||custom:makeEnemySprite||`` block to make some enemies.
 

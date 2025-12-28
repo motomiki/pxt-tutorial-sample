@@ -6,7 +6,7 @@ First create a character to star in your game!
 
 ![Image description](https://raw.githubusercontent.com/microsoft/pxt-tutorial-sample/master/images/enemies.gif)
 
-## Step One
+## Step 1
 
 Use the ``||custom:make random background||`` block to add a background color.
 
@@ -15,7 +15,7 @@ Use the ``||custom:make random background||`` block to add a background color.
 custom.makeRandomBackground()
 ```
 
-## Step Two
+## Step 2
 
 Create a sprite with the ``||variables:set mySprite to||`` block.
 
@@ -42,7 +42,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 ```
 
-## Step Three
+## Step 3
 
 Add movement with the ``||controller:move mySprite with buttons||`` block.
 
